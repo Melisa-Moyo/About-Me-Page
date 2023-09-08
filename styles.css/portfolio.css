@@ -5,7 +5,13 @@
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Playfair Display", serif;
 }
-
+.navbar-brand,
+.nav-link {
+  font-family: var(--heading-font-family);
+}
+.navbar-nav {
+  margin-left: auto;
+}
 .hero {
   background: #d9d8df;
   text-align: center;
