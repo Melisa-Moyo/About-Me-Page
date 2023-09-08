@@ -145,3 +145,37 @@ p {
 .content {
   margin: 30px;
 }
+.btn-branding-primary,
+.btn-branding-secondary {
+  background: #272142;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.btn-branding-primary:hover,
+.btn-branding-secondary:hover {
+  background: #e3e3f3;
+  color: #272142;
+  transition: all 0.3s ease-in;
+}
+@media (max-width: 900px) {
+  .content h1 {
+    font-size: 40px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+  .project-description {
+    display: inline;
+  }
+  .project-description h2 {
+    font-size: 50px;
+  }
+  footer {
+    margin-top: 50px;
+  }
+}
