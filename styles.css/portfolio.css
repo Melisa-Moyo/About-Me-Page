@@ -12,6 +12,16 @@
 .navbar-nav {
   margin-left: auto;
 }
+h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+p {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 30px;
+}
+
 .hero {
   background: #d9d8df;
   text-align: center;
@@ -39,16 +49,7 @@
 .project-description {
   padding: 170px 60px;
 }
-p {
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 30px;
-}
 
-h2 {
-  font-size: 64px;
-  font-family: var(--heading-font-family);
-}
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -58,6 +59,36 @@ h2 {
   padding: 15px 30px;
 }
 
+footer .contact-box {
+  background: #e3e3f3;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+h4 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 50px;
+}
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--branding-color);
+  font-family: var(--heading-font-family);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: #e3e3f3;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+  margin-bottom: 40px;
+}
+footer .email-link:hover {
+  text-decoration: underline;
+  color: #b9b9c4;
+}
 .about-section {
   padding: 160px 20px;
 }
