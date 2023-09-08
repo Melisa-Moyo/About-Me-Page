@@ -2,8 +2,55 @@
   --branding-color: #ea4f90;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Poppins", sans-serif;
+  --default-font-family: "Playfair Display", serif;
+}
+
+.hero {
+  background: #d9d8df;
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h1 {
+  font-size: 116px;
+  line-height: 1.5;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.project-description {
+  padding: 170px 60px;
+}
+p {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 30px;
+  font-family: var(--default-font-family);
+}
+
+h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 .about-section {
